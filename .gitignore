@@ -1,3 +1,5 @@
 /simulink/slprj/
 *.slxc
 *.bak
+*.slx.autosave
+*.slx.original
