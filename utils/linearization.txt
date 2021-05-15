@@ -1,0 +1,23 @@
+General Information:      Operating point: Model initial condition      Size:  2 inputs, 2 outputs, 4 states  Linearization Result:    A =                x1        x2        x3        x4     x1    0.9997         0  0.009865         0     x2         0    0.9997         0  0.009865     x3   -0.0676         0     0.973         0     x4         0   -0.0676         0     0.973       B =                u1        u2     x1  -0.00676         0     x2         0  -0.00676     x3    -1.352         0     x4         0    -1.352       C =          x1  x2  x3  x4     y1   1   0   0   0     y2   0   1   0   0       D =          u1  u2     y1   0   0     y2   0   0     Name: Linearization at model initial condition  Sample time: 0.01 seconds  Discrete-time state-space model.  
+  State Names: x1 - phi theta psi(1) x2 - phi theta psi(2) x3 - p,q,r (1) x4 - p,q,r (2)  Input Channel Names: u1 - Controller/1 u2 - Controller/2  Output Channel Names: y1 - RPL_FLYSON/Demux1/1 y2 - RPL_FLYSON/Demux1/2
+
+A
+0.9997         0  0.009865         0 
+      0    0.9997         0  0.009865
+-0.0676         0     0.973         0 
+     0   -0.0676         0     0.973 
+
+B
+-0.00676         0 
+     0  -0.00676 
+ -1.352         0 
+       0    -1.352 
+
+C
+
+1   0   0   0 
+ 0   1   0   0 
+
+D
+0 0
+0 0
